@@ -8,7 +8,7 @@ I built an Auto Encoder to find out the working state of the system and find the
 
 Auto Encoder Structure:
 
-![auto encoder structure](Helping_Images/auto_encoder_structure.png)
+![auto encoder structure](../Helping_Images/auto_encoder_structure.png)
 
 
 - Encoder:
