@@ -1,13 +1,13 @@
 # image segmentation
 
-we did a lot of projects regarding image segmentation. As a member of the AI research team I was part of those projects. For some cases, I did a part of the projects, for some cases I did the whole thing. Here, I will show you a demo project about segmentation. 
+we did a lot of projects regarding image segmentation. As a member of the AI research team I was part of those projects. For some cases, I did a portion of the projects, for some cases I did the whole thing. Here, I will show you a demo project about image segmentation. 
 
 ## A Demo Project
 it's important to note that for NDA, I can not share actual project or actual project data. This is just a demo project similar to the original one with some random images from the internet.
 
 #### introduction
 
-Say, we were given some big ortho images. Those images contained rice fields or wheat fields and some other crop fields. Our target object was rice and wheat. Rice fields had 5 classes: class1_rice, class2_rice, class3_rice, class4_rice, class5_rice. Same as rice, wheat fields had 5 classes: class1_wheat, class2_wheat, class3_wheat, class4_wheat, class5_wheat. Every other things were considered as background.
+Say, we were given some big ortho images (or big drone images) . Those images contained rice fields or wheat fields and some other crop fields. Our target object was rice and wheat. Rice fields had 5 classes: class1_rice, class2_rice, class3_rice, class4_rice, class5_rice. Same as rice, wheat fields had 5 classes: class1_wheat, class2_wheat, class3_wheat, class4_wheat, class5_wheat. Every other things were considered as background.
 
 so all the classes are: `class1_rice, class2_rice, class3_rice, class4_rice, class5_rice, class1_wheat, class2_wheat, class3_wheat, class4_wheat, class5_wheat, background`
 
@@ -47,10 +47,10 @@ For augmentation we used `albumentations`. We had to also create a custom datase
 #### Inference
 This part is tricky actually. As we can not use the a big image for training same goes for inference. Say a drone image is 5000x4000 pixels. It's not possible to use this whole image. So we had to cut the images into tiles, and then merge the tiles to rebuild the full prediction of the image. 
 
-Consider it as an output image of bigger size. So we have to make tiles to use it with the model.
+Consider it as a test image of bigger size. So we have to make tiles to use it with the model.
 ![segments out](../Helping_Images/segments_out.png)
 
-The tiles from the output image:
+The tiles from the test image:
 ![segments out 1](../Helping_Images/segments_image_tiles.png)
 The output from the model for each tiles:
 ![segments out tiles](../Helping_Images/segments_out_tiles_pred.png)
@@ -62,5 +62,5 @@ This is the inference summary:
 
 ![segments inference](../Helping_Images/segments_inference_summary.png)
 
-#### if geo information is available in the test photo
+#### If geo information is available in the test photo
 In test images, if we have orthophoto with geo information, we could do the prediction with the geo information after merging the tiles. We could then see exact location of the dataset and the prediction in the map with appropriate applications.
