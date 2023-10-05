@@ -102,3 +102,6 @@ This is the inference summary:
 
 #### If geo information is available in the test photo
 In test images, if we have orthophoto with geo information, we could do the prediction with the geo information after merging the tiles. We could then see exact location of the dataset and the prediction in the map with appropriate applications. So our customer could go to those specific map locations to handle the issues with the banana trees.
+
+#### why YOLOv3
+when we did the project the available options were YOLOv3 and YOLOv4. We used YOLOv3 because it gave us better result and may be YOLOv3 was not that stable back then.
