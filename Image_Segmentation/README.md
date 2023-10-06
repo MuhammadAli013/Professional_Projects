@@ -40,7 +40,7 @@ Let's have a look at a demo tile of 1024x1024 size:
 ![tiles](../Helping_Images/segments_tiles.png)
 
 #### Training
-For training, we used libraries like segmentation_models and Amazing_Semantic_Segmentation and also UNET from scratch. For our case segmentation_models worked best. It is very easy to use and very easy to change different parameters and backbone models. We tried different backbones like: `resnet50`, `resnext101`, `inceptionv3`, `inceptionresnetv2`, `efficientnetb7` etc. For our particular case `inceptionv3` worked best.
+For training, we used libraries like `segmentation_models` and `Amazing_Semantic_Segmentation` and also `UNET` from scratch. For our case `segmentation_models` worked best. It is very easy to use and very easy to change different parameters and backbone models. We tried different backbones like: `resnet50`, `resnext101`, `inceptionv3`, `inceptionresnetv2`, `efficientnetb7` etc. For our particular case `inceptionv3` worked best.
 
 For augmentation we used `albumentations`. We had to also create a custom dataset class to handle the dataset.
 
