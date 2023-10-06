@@ -58,4 +58,14 @@ This is a simple training dataflow:
 Inference of this project is very straight forward. Just we had to keep in mind one thing: *what was our preprocessing?*. If we do the same preprocessing that we did in training, the inference is good to go. 
 
 ## Class Activation Map (CAM)
-Sometimes 
+Sometimes only finding the bad spot image was not enough. We were asked to find where the spot was in the image. In other words we want to know for which region our model is deciding the example as a bad case one.
+Let's have a look at the images:
+
+
+![cam 1](../Helping_Images/image_classification/cam_1.png)
+![cam 2](../Helping_Images/image_classification/cam_2.png)
+![cam 3](../Helping_Images/image_classification/cam_3.png)
+
+For all three images:
+- left side means the original image. **In the original dataset (or in the training or testing data) obviously there is no red boundary around the spot. I have used them just to make it easier for the readers to find the bad spot**
+- Right side indicates the Class Activation Map for the left side image. The bright yellow area indicates the region for which our model is considering the original image as a bad example (NG).
