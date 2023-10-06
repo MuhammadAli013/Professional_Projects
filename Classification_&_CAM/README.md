@@ -30,4 +30,32 @@ For most of the cases we had a huge class imbalance. There were lot's of Good ca
 - Sometimes number of bad cases are two low and augmentation is not a viable options. In those cases we had to change the `loss function`. we had to put more weights in minority class to give it more importance.
 
 ##### Image processing
-Another data preparation step is Image processing. [image processing](../Image_Processing/)
+Another data preparation step is Image processing. As I mentioned earlier, most of our NG dataset's spot is indistinguishable. In some cases, it's very difficult to identify at the first glances. In those cases if we do some kind of image processing, the spot becomes very distinguishable. Let's have a look the result of some image processing:
+
+Good Case:
+![good case](../Helping_Images/image_classification/good_case.png)
+
+Bad Case:
+![bad case](../Helping_Images/image_classification/bad_case.png)
+
+From above two images it's very clear that after image processing, The spot is very distinguishable now. 
+For most of the cases this types of image processing actually helped us a lot for image classification problem. 
+**You will find some of my image processing tasks here in the[Image_Processing folder](../Image_Processing/)**.
+
+
+#### Training
+- Most of the time we used `transfer learning` for training purposes. We used vgg, resnet, mobilenet, inception,xception etc models. 
+- However, industry data were very different than `imagenet` dataset. So we had to `unfreeze` some of the last layers to let the model be trained. How many layers to be unfrozen or how many layers to be added actually depends heavily on the dataset.
+- if the dataset is similar to `imagenet` a few unfrozen layers are okay. But if the dataset is very different than `imagenet`, number of unfrozen layers must be increased. 
+
+This is a simple training dataflow:
+![training](../Helping_Images/image_classification/training.png)
+
+- Depending on the dataset, Our accuracy varied a lot. For this particular dataset accuracy varies around `99%`. The reason is very simple. After image processing, it is a very easy dataset. 
+- However, For a lot of cases, Accuracy were not our main goal. F1-score, recall, precision etc were even more important than accuracy depending on the dataset. 
+
+#### Inference
+Inference of this project is very straight forward. Just we had to keep in mind one thing: *what was our preprocessing?*. If we do the same preprocessing that we did in training, the inference is good to go. 
+
+## Class Activation Map (CAM)
+Sometimes 
