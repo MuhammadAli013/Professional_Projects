@@ -30,3 +30,4 @@ For most of the cases we had a huge class imbalance. There were lot's of Good ca
 - Sometimes number of bad cases are two low and augmentation is not a viable options. In those cases we had to change the `loss function`. we had to put more weights in minority class to give it more importance.
 
 ##### Image processing
+Another data preparation step is Image processing. [image processing](../Image_Processing/)
