@@ -8,3 +8,15 @@ it's important to note that for NDA, I can not share actual project or actual pr
 we were given a strange array of input data. Before discussing anything, let's have a look at the input data and the output data.
 ![input output](../Helping_Images/conditional_GAN/input_output.png)
 
+##### Explanation of the inputs and the output:
+**inputs:**
+- `diameter of pipe 1`: it's the diameter of the first pipe. The output has the same diameter also. You can see it from the image.
+- `diameter of pipe 2`: it's thinner compared to pipe 1. 
+*it's also worth mentioning that two different liquid were flowing through pipe 1 and pipe 2. And their density were also different.*
+- `density of liquid 1`
+- `density of liquid 2`
+- `distance between the edge of the pipe 2 and output cross section`
+So our number of input is 5.
+
+**output:**
+`density variation of the cross section area`: 
