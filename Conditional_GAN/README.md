@@ -16,7 +16,15 @@ we were given a strange array of input data. Before discussing anything, let's h
 - `density of liquid 1`
 - `density of liquid 2`
 - `distance between the edge of the pipe 2 and output cross section`
+
 So our number of input is 5.
 
 **output:**
-`density variation of the cross section area`: 
+`density variation in the cross section area`: 
+depending on the 5 inputs, the crossection area had different densities at different spot. 
+
+![](output_will_be_here)
+
+In the above picture I used shades of blues to indicate different densities. Our target was to predict this density variations.
+
+
