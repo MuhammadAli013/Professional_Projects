@@ -20,6 +20,7 @@ we were given a strange array of input data. Before discussing anything, let's h
 So our number of input is 5.
 
 **output:**
+
 `density variation in the cross section area`: 
 depending on the 5 inputs, the crossection area had different densities at different spot. 
 
