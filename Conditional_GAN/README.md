@@ -43,13 +43,13 @@ Let's have a look at a traditional GAN generator and a conditional GAN generator
 `G(z|y)`: Generator output provided that `y` is given.
 
 **Difference between Traditional GAN generator and Conditional GAN generator:**<br>
-Consider MNIST dataset as a simple example. With Traditional GAN generator, it will randomly create an MNIST data. It can be a 0,1,2,3..... etc. You can never guess what number will be the output.
+Consider MNIST dataset as a simple example. With Traditional GAN generator, it will randomly create an MNIST data. It can be a 0,1,2,3..... etc. You can never guess what number the output will be.
 
 Even, if the model is not that good, it may also create a random 28x28 sized image that won't be either of the numbers. 
 
 However, if we use conditional GAN, we can actually choose which number we want to create. We don't have any access to `z` value, but we can control `y` value. We can choose which `y` value we want in our output.
 
-Similar to MNIST our model works in a similar pattern. 
+Like MNIST our model works in a similar pattern. If we choose a specific input our generator will try to create density variation only for that specific input variables.
 
 <!-- **Training the generator**<br>
 We had a dataset where we knew the output (*density variations in the cross section area*) for 5 input variables ( *diameter of pipe 1, diameter of pipe 2,density of liquid 2,distance between the edge of the pipe 2 and output cross section* ). Say we had around 500 similar input-output set. So, training the generator is very straight forward:
