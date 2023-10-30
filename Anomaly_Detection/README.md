@@ -57,7 +57,7 @@ AnoGAN structure is actually similar to any other traditional GAN structure.
 
 ![discriminator](../Helping_Images/Anomaly_Detection/discriminator.png)
 
-- So the fundamental intuition is that the discriminator's anomaly scores allow us to detect which images stray away from the generator's learned representation of normality. Images dissimilar to normal training data get higher scores.
+- So the fundamental intuition is that the discriminator's anomaly scores allow us to detect which images stray away from the generator's learned representation of normality. Images dissimilar to normal training data get higher scores and hence, they are considered as anomalous examples.
 
 
 #### Which one worked better for our dataset? One Class SVM or AnoGAN?
