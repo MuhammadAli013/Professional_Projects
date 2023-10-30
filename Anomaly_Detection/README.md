@@ -55,6 +55,8 @@ AnoGAN structure is actually similar to any other traditional GAN structure.
     - if it's a non anomaly image: it will look like a `real image` to the discriminator, so the anomaly score will be lower.
     - if it's an anomaly/outlier image: it will not match with the images that were used to trained the GAN model. So, this image will look like `fake image` to the discriminator. Hence, the anomaly score will be higher for these kind of images.
 
+![discriminator](../Helping_Images/Anomaly_Detection/discriminator.png)
+
 - So the fundamental intuition is that the discriminator's anomaly scores allow us to detect which images stray away from the generator's learned representation of normality. Images dissimilar to normal training data get higher scores.
 
 
