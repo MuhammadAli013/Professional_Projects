@@ -14,7 +14,7 @@ So,
 | --- | --- | --- |
 | 3D_object_classification_and_segmentation | https://github.com/MuhammadAli013/projects/tree/main/3D_object_classification_and_segmentation | pointnet, pointnet++ , PCL, open3D |
 | Anomaly_Detection | https://github.com/MuhammadAli013/projects/tree/main/Anomaly_Detection | Anogan, One class SVM |
-| Classification_&_CAM | https://github.com/MuhammadAli013/projects/tree/main/Classification_%26_CAM | Transfer learning, Resnet, VGG, Inception, Class Activation Map ( CAM ) |
+| Classification_&_CAM | https://github.com/MuhammadAli013/projects/tree/main/Classification_and_CAM | Transfer learning, Resnet, VGG, Inception, Class Activation Map ( CAM ) |
 | Conditional_GAN | https://github.com/MuhammadAli013/projects/tree/main/Conditional_GAN | cGAN, custom Discriminator - Generator |
 | Face_Recognition | https://github.com/MuhammadAli013/projects/tree/main/Face_Recognition | dlib, opencv, sklearn, SVM |
 | Image_Detection | https://github.com/MuhammadAli013/projects/tree/main/Image_Detection | YOLOv3, YOLOv4 |
