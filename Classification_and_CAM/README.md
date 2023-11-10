@@ -68,4 +68,4 @@ Let's have a look at the images:
 
 For all three images:
 - The left side means the original image. **In the original dataset (or in the training or testing data) obviously there is no red boundary around the spot. I have used them just to make it easier for the readers to find the bad spot**
-The right side indicates the Class Activation Map for the left side image. The bright yellow area indicates the region for which our model is considering the original image as a bad example (NG).
+- The right side indicates the Class Activation Map for the left side image. The bright yellow area indicates the region for which our model is considering the original image as a bad example (NG).
