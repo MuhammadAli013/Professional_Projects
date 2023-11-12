@@ -17,7 +17,7 @@ we were given a strange array of input data. Before discussing anything, let's h
 3. `density of liquid 1`
 4. `density of liquid 2`
 5. `distance between the edge of the pipe 2 and output cross section`<br>
-So, number of input argument here is 5.
+So, the number of input arguments here is 5.
 
 **output:**<br>
 `density variation in the cross section area`: 
@@ -48,7 +48,7 @@ Consider the MNIST dataset as a simple example. With a Traditional GAN generator
 
 Even, if the model is not that good, it may also create a random 28x28 sized image that won't be either of the numbers. 
 
-However, if we use conditional GAN, we can actually choose which number we want to create. We don't have any access to the `z` value, but we can control the `y` value. We can choose which `y` value we want in our output ( in case of MNIST).
+However, if we use conditional GAN, we can actually choose which number we want to generate. We don't have any access to the `z` value, but we can control the `y` value. We can choose which `y` value we want in our output ( in the case of MNIST dataset).
 
 Like MNIST, our model works in a similar pattern. If we choose a specific input, our generator will try to create density variation only for those specific input variables, not just a random output. It will create a believable output for those specific input values. 
 
@@ -56,7 +56,7 @@ Like MNIST, our model works in a similar pattern. If we choose a specific input,
 #### Discriminator
 ![discriminator](../Helping_Images/conditional_GAN/discriminator.png)
 **Traditional GAN discriminator:**<br>
-Sometimes it will get `G(z)` (generator output or fake images) and sometimes it will get Real Images. Discriminator's output is very simple, just 0/1. It will be trained so that it can identify real images and fake images ( generator's output). 
+Sometimes it will get `G(z)` (generator output or fake images) and sometimes it will get Real Images. The discriminator's output is very simple, just 0/1. It will be trained so that it can identify real images and fake images ( generator's output). 
 
 **Conditional GAN discriminator:**<br>
 Like traditional GAN it also takes generator's output and real images. But it also takes input variables.
@@ -65,15 +65,15 @@ Like traditional GAN it also takes generator's output and real images. But it al
 `G(z|y):` generator's output ( fake image ) for that specific input variable `y`.
 `Real Images: ` Real image for that specific input variable `y`.
 
-The discriminator is trained so that *when an input is specified, the discriminator can detect which one is fake image (generator's output) and which one is real image for that specific input*. 
-it's very important to note that both fake image (generator's output) and real image correspond to same input values.
+The discriminator is trained so that *when input is specified, the discriminator can detect which one is a fake image (generator's output) and which one is a real image for that specific input*. 
+it's very important to note that both the fake image (generator's output) and the real image correspond to the same input values.
 
 #### The Whole GAN model
 ![the whole model](../Helping_Images/conditional_GAN/whole_model.png)
-Let's have a look at a step by step manner:
+Let's have a look in a step-by-step manner:
 1. First, some random numbers from latent space `z` and a specific input `y` are fed to the generator.
 2. Generator creates a fake image `G(z|y)` based on the specific input `y`.
-3. Fake image `G(z|y)` or a Real Image are fed to the discriminator. Both the real image and fake image `G(z|y)` correspond to the same input variable `y`. Discriminator tries to detect if it is a fake image or a real image given that the input `y` is known.
-4. The generator and the discriminator both are being trained simultaneously. For a specific input, generator is being trained to be more real-like so that it can deceive the discriminator and the discriminator is being trained to identify if it's real or fake. This adversarial relationship makes the discriminator and the generator stronger. 
+3. Fake image `G(z|y)` or a Real Image is fed to the discriminator. Both the real image and fake image `G(z|y)` correspond to the same input variable `y`. The discriminator tries to detect if it is a fake image or a real image given that the input `y` is known.
+4. The generator and the discriminator both are being trained simultaneously. For a specific input, the generator is being trained to generate more real-like images so that it can deceive the discriminator and the discriminator is being trained to identify if it's real or fake. This adversarial relationship makes the discriminator and the generator stronger. 
 
 <!-- #### Why using while conditional GAN instead of a traditional Deep Learning model? -->
