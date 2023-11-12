@@ -16,7 +16,7 @@ Auto Encoder Structure:
 - Encoder:
     - The input layer had 130 neurons.
     - Every layer had less number of neurons than the previous layer.
-    The final output had only 2 neurons
+    - The final output had only 2 neurons
 - Decoder:
     - The input layer had 2 neurons ( the same layer as the output of the encoder ).
     - Every layer had more number of neurons than the previous layer.
