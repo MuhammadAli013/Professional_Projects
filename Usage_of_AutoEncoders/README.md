@@ -27,7 +27,7 @@ Auto Encoder Structure:
     - *Green points on the graph correspond to the Good zone, blue points correspond to the Transition zone and red points correspond to the Bad zone.*
 
 The auto-encoder was trained in such a way that similar encoded outputs are placed in almost the same place in the latent space graph. <br>
-The two ash color line is completely hypothetical. They are drawn to divide the zone into 3 parts according to the output. You can see the lines are not perfect either. It was actually kind of impossible to cluster all the similar outputs in the same place of the latent space. So obviously there were some outliers. However, the number of outliers was very insignificant compared to the total number of data.
+The two ash color lines are completely hypothetical. They are drawn to divide the zone into 3 parts according to the output. You can see the lines are not perfect either. It was actually kind of impossible to cluster all the similar outputs in the same place of the latent space. So obviously there were some outliers. However, the number of outliers was very insignificant compared to the total number of data.
 
 ### How it works (when it's already trained):
 - a 130-dimensional data was fed to the encoder.
