@@ -1,5 +1,5 @@
 # Professional projects
-This repository contains my professional projects from my AI career in Japan. Obviously, I could not add all the projects here, but the most important ones are listed here. These projects are from two companies:
+This repository contains my professional projects from my AI career in Japan. Obviously, I could not add all the projects, but the most important ones are listed here. These projects are from two companies:
 1. Skymatix (www.skymatix.co.jp) -- January 2021 to July 2023
 2. Hiperdyne (www.hiperdyne.com) -- December 2018 to December 2022
 
