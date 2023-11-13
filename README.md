@@ -1,24 +1,28 @@
-# projects
-It will contain important project descriptions that I have done so far in different companies. 
-Every name is self-explanatory. You can go through every project folder and you will understand the gist of what I did. 
+# Professional projects
+This repository contains my professional projects from my AI career in Japan. Obviously, I could not add all the projects here, but the most important ones are listed here. These projects are from two companies:
+1. Skymatix (www.skymatix.co.jp) -- January 2021 to July 2023
+2. Hiperdyne (www.hiperdyne.com) -- December 2018 to December 2022
 
-As most of these projects are from my different companies, **I am not allowed to use any actual dataset**. 
+**NDA**<br>
+*It is crucial to emphasize that due to the non-disclosure agreement (NDA), I am unable to disclose the actual projects or their data. The presented projects are merely demonstrations, resembling the original ones but featuring random images sourced from the internet, or from my own dataset.*<br>
 So,
 - In some cases, I used a similar public dataset for the explanation.
 - In some cases, I had to use abstract visualizations for the explanation.
 
-## List of projects and there corresponding links:
-**you are highly encouraged to go through the links to have a good idea about the projects.**
 
-| Topic | Link | key words |
+Every name in this repository is self-explanatory. You can go through every project folder and you will understand the gist of what I did. <br>
+## List of projects and their corresponding links:
+**You are highly encouraged to go through the links to have a good idea about the projects.**
+
+| Topic | key words |  |
 | --- | --- | --- |
-| 3D_object_classification_and_segmentation | https://github.com/MuhammadAli013/projects/tree/main/3D_object_classification_and_segmentation | pointnet, pointnet++ , PCL, open3D |
-| Anomaly_Detection | https://github.com/MuhammadAli013/projects/tree/main/Anomaly_Detection | Anogan, One class SVM |
-| Classification_&_CAM | https://github.com/MuhammadAli013/projects/tree/main/Classification_and_CAM | Transfer learning, Resnet, VGG, Inception, Class Activation Map ( CAM ) |
-| Conditional_GAN | https://github.com/MuhammadAli013/projects/tree/main/Conditional_GAN | cGAN, custom Discriminator - Generator |
-| Face_Recognition | https://github.com/MuhammadAli013/projects/tree/main/Face_Recognition | dlib, opencv, sklearn, SVM |
-| Image_Detection | https://github.com/MuhammadAli013/projects/tree/main/Image_Detection | YOLOv3, YOLOv4 |
-| Image_Processing | https://github.com/MuhammadAli013/projects/tree/main/Image_Processing | Opencv, Canny edge, Morphological Transformation |
-| Image_Segmentation | https://github.com/MuhammadAli013/projects/tree/main/Image_Segmentation | UNET, segmentation_models, Amazing_Semantic_Segmentation |
-| Usage_of_AutoEncoders | https://github.com/MuhammadAli013/projects/tree/main/Usage_of_AutoEncoders | Auto Encoders |
-| pix2pix | https://github.com/MuhammadAli013/projects/tree/main/pix2pix | pix2pix |
+| pix2pix | pix2pix GAN | https://github.com/MuhammadAli013/Professional_Projects/tree/main/pix2pix |
+| Anomaly_Detection | Anogan, Feature Extraction, One class SVM | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Anomaly_Detection |
+| Classification_&_CAM | Transfer learning, Resnet, VGG, Inception, Class Activation Map ( CAM ) | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Classification_and_CAM |
+| Conditional_GAN | cGAN, custom Discriminator - Generator | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Conditional_GAN |
+| Face_Recognition | dlib, opencv, sklearn, SVM | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Face_Recognition |
+| Image_Detection | YOLOv3, YOLOv4 | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Image_Detection |
+| Image_Processing | Opencv, Canny edge, Morphological Transformation | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Image_Processing |
+| https://www.notion.so/image-segmentation-1618c326f2a54508afc8882d8a5e11fe?pvs=21 | UNET, segmentation_models, Amazing_Semantic_Segmentation | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Image_Segmentation |
+| Usage_of_AutoEncoders | Auto Encoders, Latent space graph | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Usage_of_AutoEncoders |
+| 3D_object_classification_and_segmentation | pointnet, pointnet++ , PCL, open3D | https://github.com/MuhammadAli013/Professional_Projects/tree/main/3D_object_classification_and_segmentation |
