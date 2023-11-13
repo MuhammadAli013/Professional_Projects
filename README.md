@@ -23,6 +23,6 @@ Every name in this repository is self-explanatory. You can go through every proj
 | Face_Recognition | dlib, opencv, sklearn, SVM | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Face_Recognition |
 | Image_Detection | YOLOv3, YOLOv4 | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Image_Detection |
 | Image_Processing | Opencv, Canny edge, Morphological Transformation | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Image_Processing |
-| https://www.notion.so/image-segmentation-1618c326f2a54508afc8882d8a5e11fe?pvs=21 | UNET, segmentation_models, Amazing_Semantic_Segmentation | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Image_Segmentation |
+| Image_Segmentation | UNET, segmentation_models, Amazing_Semantic_Segmentation | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Image_Segmentation |
 | Usage_of_AutoEncoders | Auto Encoders, Latent space graph | https://github.com/MuhammadAli013/Professional_Projects/tree/main/Usage_of_AutoEncoders |
 | 3D_object_classification_and_segmentation | pointnet, pointnet++ , PCL, open3D | https://github.com/MuhammadAli013/Professional_Projects/tree/main/3D_object_classification_and_segmentation |
