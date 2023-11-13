@@ -1,9 +1,9 @@
 # Professional projects
 This repository contains my professional projects from my AI career in Japan. Obviously, I could not add all the projects, but the most important ones are listed here. These projects are from two companies:
 1. Skymatix (www.skymatix.co.jp) -- January 2021 to July 2023 <br>
-![skymatix](../Helping_Images/Skymatix.png)
+![skymatix](/Helping_Images/Skymatix.png)
 2. Hiperdyne (www.hiperdyne.com) -- December 2018 to December 2022 <br>
-![Hiperdyne](../Helping_Images/Hiperdyne.png)
+![Hiperdyne](/Helping_Images/Hiperdyne.png)
 
 **NDA**<br>
 *It is crucial to emphasize that due to the non-disclosure agreement (NDA), I am unable to disclose the actual projects or their data. The presented projects are merely demonstrations, resembling the original ones but featuring random images sourced from the internet, or from my own dataset.*<br>
